@@ -15,4 +15,12 @@ h3 {
     padding: 10px;
     margin: 0 auto;
 }
+#quote {
+    width: 320px;
+    height: 320px;
+    padding: 20px;
+    border: 2px solid rgba(94, 93, 76, 0.795);
+    margin: 0 auto;
+    margin-top: 50px;
+}
 
