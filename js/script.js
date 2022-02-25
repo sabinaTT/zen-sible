@@ -6,7 +6,7 @@ $('form').on('submit', (e) => {
         url
     }).then(
         (data) => {
-            $('#quote').html(data[100])
+            $('#quote').html(data)
         },
         (error) => {
             console.log('bad request: ', error)
