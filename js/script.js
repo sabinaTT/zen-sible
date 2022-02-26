@@ -14,12 +14,11 @@ $('form').on('submit', (e) => {
             console.log(adviceArray)
             for (let i = 0; i< adviceArray; i++) {
                 let randomAdvice = adviceArray[Math.floor(Math.random()*adviceArray.length)];
-                console.log(randomAdvice)
+                // console.log(randomAdvice)
                 $('#quote').html(randomAdvice)
             }
             */
-            $('#quote').html(data.slips[0].advice[1])
-
+            $('#quote').html(data.slips[0].advice)
         },
         (error) => {
             console.log('bad request: ', error)

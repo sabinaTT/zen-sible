@@ -17,10 +17,16 @@ h3 {
 }
 #quote {
     width: 320px;
-    height: 320px;
-    padding: 20px;
+    height: 220px;
+    padding: 50px 0;
     border: 2px solid rgba(94, 93, 76, 0.795);
     margin: 0 auto;
     margin-top: 50px;
+    font-size: 30px;
+    font-size-adjust: 0.58;
+    text-align: center;
+
+
 }
+
 
